@@ -1,4 +1,7 @@
-# Python programming and its applications in structural geology
+Title:	Python programming and its applications in structural geology
+Author: Ondrej Lexa
+Date:	March 18, 2018
+# Workshop materials
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ondrolexa/apsg-workshop/master)
 
@@ -16,23 +19,9 @@
 
 ## Software Installation
 
-This workshop is taught using Python 3 and the "Scientific Stack", a set of core scientific computing packages written and maintained by various third parties.
+Python itself must be installed first and then there are many packages to install, and it can be confusing for beginners. If you use Linux or MacOS then you will have a default Python installed and you can use it. For Windows you have to install something. There are several options for setting up a nice Python development environment but the setup that is becoming "standard" is *Continuum Analytics* [Anaconda Distribution](http://continuum.io/downloads.html), which we will use during this workshop.
 
-### Python
-
-The first step is to install Python on your computer. I will be teaching this course based on **Python 3.6**. If Python 3 is not on your system, you can either download an installer from [Python.org](http://python.org) or install a third-party distribution (see below). I recommend the latter, since these distributions are enhanced, containing most or all of the packages required for the course.
-
-In addition to Python itself, we will be making use of several packages in the scientific stack. These include the following:
-
-* [NumPy](http://www.numpy.org/ "NumPy &mdash; Numpy")
-* [SciPy](http://www.scipy.org/ "SciPy.org &mdash; SciPy.org")
-* [IPython](http://ipython.org/ "Announcements &mdash; IPython")
-* [Pandas](http://pandas.pydata.org/ "Python Data Analysis Library &mdash; pandas: Python Data Analysis Library")
-* [Matplotlib](http://matplotlib.org/ "matplotlib: python plotting &mdash; Matplotlib 1.2.1 documentation")
-
-### All-in-one Scientific Python
-
-Perhaps the easiest way to get a feature-complete version of Python on your system is to install the [Anaconda](http://continuum.io/downloads.html) distribution by Continuum Analytics. Anaconda is a completely free Python environment that includes includes almost 200 of the best Python packages for science and data analysis. Its simply a matter of downloading the installer (either graphical or command line), and running it on your system.
+It is a free, easy-to-install package manager, environment manager and Python distribution with a collection of 1,000+ open source packages with free community support. Anaconda is platform-agnostic, so you can use it whether you are on Windows, macOS or Linux. You can learn more about Anaconda and conda by reading the [Anaconda Documentation pages](https://docs.anaconda.com/).",
 
 Be sure to download the Python 3.6 installer, by following the **Python 3.6 link** for your computing platform.
 
@@ -48,7 +37,7 @@ To exit the `tsk-python` environment, you can switch it off via:
 
     conda deactivate
 
-Alternatively, if you would rather not set up a Python environment on your machine, you may run the course materials using `binder` by clicking on the **launch binder** button at the top of this page.
+Alternatively, if you would rather not set up a Python environment on your machine, you may run the course materials using [Binder](https://mybinder.org/) by clicking on the **launch binder** button at the top of this page.
 
 ## Downloading Course Materials
 
@@ -56,6 +45,6 @@ The final step is accessing the course materials. **If you are familiar with Git
 
     git clone https://github.com/ondrolexa/apsg-workshop.git
 
-Otherwise, you may download a zip archive containing the course content. Near the top right-hand part of the repository main page, you should see a **Download ZIP** button.
+Otherwise, you may download a zip archive containing the course content. Near the top right-hand part of the repository main page, you should see a **Clone or download** button.
 
-Clicking this will initiate the download. Unzipping the file (or cloning the repo) will generate a directory called `apsg-workshop-master`, within which will be the same directory structure that you see at the top of the repository main page. 
+Clicking **Download ZIP** will initiate the download. Unzipping the file (or cloning the repo) will generate a directory called `apsg-workshop-master`, within which will be the same directory structure that you see at the top of the repository main page. 
