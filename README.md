@@ -1,6 +1,6 @@
 # Python programming and its applications in structural geology
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fonnesbeck/scientific-python-workshop)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ondrolexa/apsg-workshop/master)
 
 ## Schedule
 
