@@ -1,0 +1,14 @@
+name: tsk-python
+
+channels:
+  - ondrolexa
+
+dependencies:
+  - python=3
+  - numpy
+  - scipy
+  - jupyter
+  - pandas
+  - matplotlib
+  - seaborn
+  - apsg
